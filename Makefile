@@ -28,4 +28,4 @@ up:  ## [Spins the project up]
 
 .PHONY: lint
 lint:  ## [Lints the project]
-	black .
+	black . && isort .
