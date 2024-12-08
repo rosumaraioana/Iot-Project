@@ -1,0 +1,9 @@
+What challenges can you imagine when processing IoT data?
+
+Some of the most common challenges occurred when it comes to processing IoT data are:
+Conceptually speaking all main challenges of the IoT data stem from the 5Vs of big data: velocity, volume, variety, value, veracity.
+Then taking this into account, several specific ones can be named:
+•	 Given the volume and the velocity of the data the application design must be highly scalable and responsive
+•	Given the vast variety of data produced the data application has to employ flexible data storages to accommodate different data structures as well as to implement pipelines to clean, filter and standardize data
+•	Given data veracity on such big scale data can be messy and difficult to transform into valuable insights
+•	Additionally, given to the underlying hardware infrastructure that Iot requires is challenging to involve a diverse array of devices, protocols that naturally communicate or work together.
