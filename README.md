@@ -68,4 +68,11 @@ This will start the application using Docker Compose.
 Once started, services will be available: 
 
 * Airflow: localhost:8080
-* Postgre: localhost:5432
+* Postgres: localhost:5432 
+
+Use the Airflow UI to monitor and manually trigger DAGs. Example DAGs include:
+
+setup_database: For creating the database schema.
+setup_staging_area: For loading the json iot data.
+load_dimensions: For data warehousing dimensions.
+load_facts: For data warehousing facts. (WIP)
